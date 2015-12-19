@@ -66,6 +66,7 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <finalName>poe</finalName>
                 </configuration>
             </plugin>
         </plugins>
