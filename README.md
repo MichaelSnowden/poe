@@ -2,4 +2,4 @@
 A programming language using a small subset of English interpreted in Java
 
 # Installation
-`curl -s https://raw.githubusercontent.com/MichaelSnowden/poe/master/poe-install.sh | sh`
+`curl -s https://raw.githubusercontent.com/MichaelSnowden/poe/master/install.sh | sh`
