@@ -6,4 +6,5 @@ cd ~/poe-install
 git clone https://github.com/MichaelSnowden/poe .
 mvn generate-sources
 mvn clean compile assembly:single
+echo "java -jar $(pwd)/target/poe.jar $1" >> poec.sh
 sudo cp poec.sh /usr/bin/poec
