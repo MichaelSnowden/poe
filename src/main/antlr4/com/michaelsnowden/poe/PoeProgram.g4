@@ -5,7 +5,7 @@ sentence: unconditionalDialogue | assignment | conditional;
 assignment: Variable ' is ' Value;
 conditional: 'If ' condition ', then ' conditionalDialogue;
 condition: Variable ' is ' Value;
-unconditionalDialogue: dialogue;
+unconditionalDialogue: 'Say ' Something;
 conditionalDialogue: dialogue;
 dialogue: 'say ' Something;
 

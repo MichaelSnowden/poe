@@ -11,7 +11,7 @@ import java.io.IOException;
 public class SyntaxTest {
     @Test
     public void testSyntax() throws Exception {
-        verify("/syntax.poe");
+        verify("/test.poe");
     }
 
     private void verify(String file) throws IOException {

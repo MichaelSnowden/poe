@@ -57,7 +57,7 @@ public class Interpreter {
             @Override
             public void exitUnconditionalDialogue(PoeProgramParser.UnconditionalDialogueContext ctx) {
                 super.exitUnconditionalDialogue(ctx);
-                System.out.println(ctx.dialogue().Something());
+                System.out.println(ctx.Something());
             }
 
             @Override
