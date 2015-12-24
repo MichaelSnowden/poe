@@ -9,4 +9,4 @@ mvn clean compile assembly:single
 echo "#!/usr/bin/env bash" >> poe.sh
 echo "java -jar $(pwd)/target/poe.jar \$1" >> poe.sh
 sudo chmod 777 poe.sh
-sudo cp poe.sh /usr/bin/poec
+sudo cp poe.sh /usr/bin/poe
